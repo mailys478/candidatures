@@ -7,5 +7,11 @@
 </head>
 <body>
   <h1>candidature</h1>
+
+  <form method="post">
+    <input type="file" name="candidature"/>
+    <button type="submit">Envoyer</button>
+</form>
+
 </body>
 </html>
