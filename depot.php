@@ -3,6 +3,7 @@
 if ($_SERVER['REQUEST_METHOD']=='POST'){
 var_dump($_FILES);
 move_uploaded_file($_FILES["candidatures"]["tmp_name"],"candidatures/".$_FILES["candidatures"]["name"]);
+header ("location:depot.php");
 }
 
 
